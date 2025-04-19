@@ -1,0 +1,1 @@
+{"id":"sclogin","name":"SCLogin","version":"1.0","authors":["Kartos"],"dependencies":[{"id":"limboapi","optional":false}],"main":"pl.stellarcode.sCLogin.SCLogin"}

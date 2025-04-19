@@ -1,0 +1,16 @@
+pl\stellarcode\sCLogin\Listener\onPlayerDisconnect.class
+pl\stellarcode\sCLogin\Commands\changepass.class
+pl\stellarcode\sCLogin\Commands\premium.class
+pl\stellarcode\sCLogin\Handlers\Bruteforce.class
+pl\stellarcode\sCLogin\Commands\sclogin.class
+pl\stellarcode\sCLogin\Handlers\AuthHandlerSession$1.class
+pl\stellarcode\sCLogin\Handlers\AuthHandlerSession.class
+velocity-plugin.json
+pl\stellarcode\sCLogin\Log.class
+pl\stellarcode\sCLogin\Listener\onLoginLimboRegisterEvent.class
+pl\stellarcode\sCLogin\Listener\onServerPreConnectEvent.class
+pl\stellarcode\sCLogin\Listener\onPlayerPreLoginEvent.class
+pl\stellarcode\sCLogin\API\MojangAPI.class
+pl\stellarcode\sCLogin\SCLogin.class
+pl\stellarcode\sCLogin\Database\database.class
+pl\stellarcode\sCLogin\Util\parse.class

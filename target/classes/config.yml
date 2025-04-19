@@ -1,0 +1,64 @@
+#
+#  ____   ____ _     ___   ____ ___ _   _
+# / ___| / ___| |   / _ \ / ___|_ _| \ | |
+# \___ \| |   | |  | | | | |  _ | ||  \| |
+#  ___) | |___| |__| |_| | |_| || || |\  |
+# |____/ \____|_____\___/ \____|___|_| \_|
+#
+# https://discord.gg/dvET3MzDC4
+#
+
+# [Settings] Database
+database:
+  # SQLite, MySQL
+  type: SQLite
+
+  # MySQL
+  hostname: "localhost"
+  database: "database"
+  port: 3306
+  username: "root"
+  password: ""
+
+logs:
+  enabled: true
+
+login:
+  # Should the premium players log in automatically?
+  # • The plugin will challenge the user after detecting if they have a premium UUID
+  premium-auto-login: true
+
+  # Do you wish to clear chat after log in?
+  clean-chat-after-login: true
+
+  redirect-after-login:
+    last-server: false
+    # If last-server is enabled this option will not work!
+    redirect: lobby
+
+security:
+  # Max login time
+  # • In seconds!
+  time-to-login: 30
+
+  password:
+    # Sets the minimum password size.
+    small: 6
+    # Sets the maximum password size.
+    large: 32
+
+  bruteforce:
+    # Sets the maximum number of attempts a player can make.
+    max-login-tries: 1
+
+    # Automatic punishment
+    # • After too many fails, the suspect IP address will immieniedielty blocked.
+    auto-punishment: true
+
+    # Punishment time
+    # • In minutes!
+    punishment-duration: 15
+
+    # Ignore local connections?
+    ignore-localhost: false
+
